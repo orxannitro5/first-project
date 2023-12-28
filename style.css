@@ -8,19 +8,21 @@
 }
 
 body {
-    height: 100%;
-    width: 100vw;
+    
+    width: 100%;
 }
 
 .header {
     background-image: url(/backgroundimage1.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
    
     font-family: 'Open Sans', sans-serif;
 }
 .container {
     margin: 0px 340px;
+    
 }
 .header-line {
     display: flex;
@@ -234,40 +236,39 @@ body {
     width: 100%;
     
 }
+.first-photo{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    position: relative;
+    top: 100px;
+    
+}
 .first-photo-text{
     color: white;
     background-color: #9a24c1;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 12px 18px;
-    font-size: 13px;
-    
-    top: 50px;
-    left: 0px;
+    padding: 10px ;
+
 }
-.first-photo{
-    position: absolute;
-    top:122px ;
-    
+.first-photo-info{
+    position:absolute;
+    top: 80%;
+    left: 10%;
 }
 .first-photo-data{
     color: white;
-    padding-left: 15px;
-    padding-top: 5px;
-    
-    
-}
-.first-photo-info{
-    position: absolute;
-    top: 300px;
-    left: 30px;
-
+    padding-left: 10px;
 }
 .second-photo{
-    position: absolute;
-    left: 750px;
-    top: 340px;
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    position: relative;
+    left: 380px;
+    bottom: 25px;
     
 }
 .second-photo-info{
@@ -292,9 +293,12 @@ body {
 
 }
 .third-photo{
-    position:absolute;
-    top: 220px;
-    left: 1040px;
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    position: relative;
+    left: 670px;
+    bottom: 450px;
 }
 .third-photo-text{
     color: white;
@@ -304,29 +308,27 @@ body {
     align-items: center;
     padding: 12px 18px;
     font-size: 13px;
-
 }
 .third-photo-data{
-    color: white;
+     color: white;
     padding-left: 15px;
     padding-top: 5px;
-
+       
 }
 .third-photo-info{
     position: absolute;
     top: 70%;
     left: 10%;
-
 }
 .fourth-photo{
     position: absolute;
     top:425px ;
-    left: 1330px;
+    left: 1300px;
 }
 .fifth-photo{
     position: absolute;
     top:540px ;
-    left: 1040px;
+    left: 1010px;
 }
 .sixth-photo-info{
     position: absolute;
@@ -349,7 +351,7 @@ body {
 }
 .sixth-photo{
     position: absolute;
-    left: 1230px;
+    left: 1200px;
     top: 620px;
 }
 .seventh-photo-info{
@@ -372,14 +374,18 @@ body {
     padding-top: 5px;
 }  
 .seventh-photo{
-    position: absolute;
-    top: 670px;
-    left: 560px;
-}
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    position: relative;
+    left: 200px;
+    bottom: 275px;
+}   
 .eighth-photo-info{
     position: absolute;
     top: 70%;
     left: 10%;
+    
 
 }        
 .eighth-photo-text{
@@ -398,9 +404,12 @@ body {
     padding-top: 5px;
 }  
 .eighth-photo{
-    position: absolute;
-    left: 850px;
-    top: 670px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    position: relative;
+    left: 490px;
+    bottom: 550px;
 }
 .ninth-photo{
     position: absolute;
@@ -671,3 +680,9 @@ body {
     height: 22px;
     display: none;
 }
+@media(max-width:1300px){
+    .third-section-content{
+        
+    }
+}
+

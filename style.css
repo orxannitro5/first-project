@@ -685,9 +685,21 @@ body {
     height: 22px;
     display: none;
 }
-@media(max-width:1445px){
+@media(max-width:1500px){
     .container{
-        margin: 0px 0px;
+        margin: 0px 180px;
+    }
+    .fifth-photo{
+        left: 850px;
+    }
+    .fourth-photo{
+        left: 1140px;
+    }
+    .tenth-photo{
+        left: 1050px;
+    }
+    .eleventh-photo{
+        left: 670px;
     }
 }
 @media(max-width:1300px){

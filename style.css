@@ -330,10 +330,13 @@ body {
     top:540px ;
     left: 1010px;
 }
-.sixth-photo-info{
-    position: absolute;
-    top: 70%;
-    left: 10%;
+.sixth-photo{
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    position: relative;
+    left: 870px;
+    bottom: 350px;
 }
 .sixth-photo-text{
     color: white;
@@ -345,19 +348,23 @@ body {
     font-size: 13px;
 }
 .sixth-photo-data{
-    color: white;
+     color: white;
     padding-left: 15px;
     padding-top: 5px;
+       
 }
-.sixth-photo{
-    position: absolute;
-    left: 1200px;
-    top: 620px;
-}
-.seventh-photo-info{
+.sixth-photo-info{
     position: absolute;
     top: 70%;
     left: 10%;
+}
+.seventh-photo{
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    position: relative;
+    left: 200px;
+    bottom: 550px;
 }
 .seventh-photo-text{
     color: white;
@@ -369,18 +376,16 @@ body {
     font-size: 13px;
 }
 .seventh-photo-data{
-    color: white;
+     color: white;
     padding-left: 15px;
     padding-top: 5px;
-}  
-.seventh-photo{
-    display: flex;
-    flex-direction: column;
-    width: 255px;
-    position: relative;
-    left: 200px;
-    bottom: 275px;
-}   
+       
+}
+.seventh-photo-info{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+}
 .eighth-photo-info{
     position: absolute;
     top: 70%;
@@ -409,7 +414,7 @@ body {
     width: 350px;
     position: relative;
     left: 490px;
-    bottom: 550px;
+    bottom: 830px;
 }
 .ninth-photo{
     position: absolute;
@@ -418,12 +423,12 @@ body {
 .tenth-photo{
     position: absolute;
     top: 920px;
-    left: 1235px;
+    left: 1215px;
 }
 .eleventh-photo{
     position: absolute;
     top: 1100px;
-    left: 850px;
+    left: 830px;
 }
 .fourth-section{
     font-family: 'Open Sans', sans-serif;
@@ -681,8 +686,110 @@ body {
     display: none;
 }
 @media(max-width:1300px){
-    .third-section-content{
+    .container{
+        margin: 0px 80px;
+    }
+    
+    .fifth-photo{
+        left: 770px;
+    }
+    .sixth-photo{
+        left: 860px;
+    }
+    .fourth-photo{
+        left: 1050px;
+    }
+    .eleventh-photo{
+        left: 600px;
+    }
+    .tenth-photo{
+        left: 980px;
+    }
+    .first-card{
+        margin-right: 10px;
+    }
+}
+@media(max-width:1100px){
+    .container{
+        margin: 0px 50px;
+    }
+    .third-section{
+        background-image: url(/third-section-background.png);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 1200px;
+    }
+    .first-photo{
+        width: 290px;
+    }
+    .first-photo-info{
+        font-size: 14px;
+        position: absolute;
+        width: 220px;
+        left: 3%;
+        top: 75%
+    }
+    .second-photo{
+        width: 210px;
+        left: 320px;
+    }
+    .second-photo-info{
+        font-size: 13px;
+    }
+    .third-photo{
+        width: 210px;
+        left: 550px;
+        bottom: 380px;
+    }
+    .third-photo-info{
+        font-size: 13px;
+        left: 5%;
+        top: 65%;
+    }
+    .fourth-photo-image,.tenth-photo-image,.fifth-photo-image,.ninth-photo-image{
+        width: 130px;
         
     }
+    .fourth-photo{
+        left: 850px;
+        top: 350px;
+    }
+    .ninth-photo{
+        top: 450px;
+    }
+    .seventh-photo{
+        width: 210px;
+        bottom: 450px;
+        left: 170px;
+    }
+    .seventh-photo-info{
+        top: 60%;
+    }
+    .eighth-photo{
+        width: 290px;
+        left: 400px;
+        bottom: 680px;
+    }
+    .fifth-photo{
+        left: 600px;
+        top: 440px;
+    }
+    .sixth-photo{
+        width: 210px;
+        left: 720px;
+        bottom: 300px;
+    }
+    .tenth-photo{
+        left: 775px;
+        top: 750px;
+    }
+    .eleventh-photo{
+        left: 450px;
+        top: 920px;
+    }
+    
+
+    
 }
 

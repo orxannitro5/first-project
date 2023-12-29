@@ -685,6 +685,11 @@ body {
     height: 22px;
     display: none;
 }
+@media(max-width:1445px){
+    .container{
+        margin: 0px 0px;
+    }
+}
 @media(max-width:1300px){
     .container{
         margin: 0px 80px;

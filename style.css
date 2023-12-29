@@ -223,6 +223,9 @@ body {
     margin-left: 25px;
 
 }
+.logo2{
+    width: 400px;
+}
 .third-section{
     background-image: url(/third-section-background.png);
     background-repeat: no-repeat;
@@ -436,6 +439,7 @@ body {
 .first-part{
     text-align: center;
 }
+
 .fourth-section-title{
     position: relative;
     bottom: 90px;
@@ -680,6 +684,7 @@ body {
 .seventh-logo:hover{
     text-decoration: underline;
 }
+
 .burger-menu{
     width: 24px;
     height: 22px;
@@ -701,26 +706,36 @@ body {
     .eleventh-photo{
         left: 670px;
     }
+    .seventh-section-social-media{
+        margin-right: 12px;
+    }
 }
 @media(max-width:1300px){
     .container{
         margin: 0px 80px;
     }
+    .third-section{
+        background-image: url(/third-section-background.png);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 1500px;
+    }    
     
     .fifth-photo{
         left: 770px;
     }
     .sixth-photo{
-        left: 860px;
+        left: 880px;
     }
     .fourth-photo{
         left: 1050px;
     }
     .eleventh-photo{
-        left: 600px;
+        left: 570px;
     }
     .tenth-photo{
-        left: 980px;
+        left: 960px;
     }
     .first-card{
         margin-right: 10px;
@@ -797,6 +812,7 @@ body {
         left: 720px;
         bottom: 300px;
     }
+    
     .tenth-photo{
         left: 775px;
         top: 750px;
@@ -805,8 +821,32 @@ body {
         left: 450px;
         top: 920px;
     }
+    .second-part-h2,.second-part-h4,.second-part-text,.second-part-text2,.grey-button{
+        width: 290px;
+    }
+    .fourth-section-image{
+        width: 290px;
+    }
+    .card-last{
+        display: none;
+    }
     
-
+    .first-card{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 20px;
+    }
+    .seventh-logo{
+        margin-right: 20px;
+    }
+    .seventh-section-about-us{
+        width: 100px;
+    }
+    
+    
+    
+    
     
 }
 

@@ -849,4 +849,195 @@ body {
     
     
 }
+@media(max-width:550px){
+    .container{
+        margin: 0px 30px;
+    }
+    .logo1{
+        width: 81px;
+        
+        
+        
+    }
+    
+    .nav{
+        display: none;
+    }
+    .title-button{
+        display: none;
+    }
+    .burger-menu{
+        display: block;
+        margin-bottom: 15px;
+        margin-right: 20px;
+        
+
+    }
+    .header-line{
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+
+       
+    }
+    .header-down{
+        margin-top: 100px;
+    }
+    .marks{
+        display: none;
+    }
+    .countdown{
+        font-size: 13px;
+    }
+    .zero{
+        font-size: 18px;
+    }
+    .announcement{
+        font-size: 28px;
+    }
+    .second-section-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .second-section-right{
+        width: 400px;
+        margin-right: 50px;
+    }
+    .first-photo,.second-photo,.third-photo,.sixth-photo,.seventh-photo,.eighth-photo{
+        width: 470px;
+        left: 0px;
+    }
+    .fourth-photo-image,.fifth-photo-image,.ninth-photo-image,.tenth-photo-image,.eleventh-photo-image{
+        width: 210px;
+        
+    }
+    .third-section{
+        background-size: cover;
+        background-position: center ;
+        background-repeat: no-repeat;
+        height: auto;
+        padding: 50px 0 1100px;
+    }
+    .first-photo{
+        top: 0px;
+        left: 0px;
+    }
+    .second-photo{
+        left: 0px;
+        top: 30px;
+    }
+    .third-photo{
+        left: 0px;
+        top: 50px;
+    }
+    .sixth-photo{
+        left: -2px;
+        top: 500px;
+    }
+    .seventh-photo{
+        top: 520px;
+        
+    }
+    .eighth-photo{
+        top: 550px;
+        
+    }
+    .fourth-photo{
+        left: 30px;
+        top: 1700px;
+    }
+    .ninth-photo{
+        top: 1700px;
+        left: 290px;
+    }
+    .fifth-photo{
+        left: 30px;
+        top: 1950px;
+    }
+    .tenth-photo{
+        left: 30px;
+        top: 3750px;
+    }.eleventh-photo{
+        top: 3750px;
+        left: 290px;
+    }
+    .second-part{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .fourth-section-image{
+        width: 480px;
+        
+    }
+    .second-part-h2,.second-part-h4,.second-part-text,.second-part-text2,.grey-button{
+        width: 480px;
+    }
+    .first-card{
+        margin-left: 0px;
+    }
+    .fifth-section{
+        background-size: cover;
+        background-position: center ;
+        background-repeat: no-repeat;
+        height: auto;
+        padding: 50px 0 100px;
+    }
+    .fifth-section-head{
+        display: block;
+    }
+    .card-ex{
+        display: none;
+    }
+    .fifth-section-head-title{
+        font-size: 50px;
+        margin-top: 50px;
+    }
+    .fifth-section-image,.fifth-section-image-location,.fifth-section-data{
+        width: 222px;
+    }
+    .fifth-section-foot-list-partners{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .foot-logo{
+        width: 50%;
+        margin-top: 50px;
+    }
+    .sixth-section{
+        background-size: cover;
+        background-position: center ;
+        background-repeat: no-repeat;
+        height: auto;
+        padding: 50px 0 100px;
+    }
+    .sixth-section-text{
+        font-size: 18px;
+    }
+    .sixth-section-inpur-button{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 70px;
+
+    }
+    .name-input,.mail-input{
+        width: 100%;
+        margin-bottom:30px ;
+    }
+    .seventh-nav-items{
+        display: flex;
+        padding: 0px;
+        padding-top: 60px;
+        justify-content: center;
+    }
+    .seventh-logos{
+        display: flex;
+        padding: 0 120px;
+        padding-top: 100px;
+        
+    }
+    
+}
 

@@ -752,6 +752,12 @@ body {
         background-repeat: no-repeat;
         height: 1200px;
     }
+    .marks{
+        display: none;
+    }
+    .header-down{
+        margin-top: 150px;
+    }
     .first-photo{
         width: 290px;
     }
@@ -849,6 +855,195 @@ body {
     
     
 }
+@media(max-width:800px){
+    .container{
+        margin: 0px 40px;
+    }
+    .header{
+        background-image: url(/backgroundimage1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .logo1{
+        width: 80px;
+    }
+    .nav{
+        display: none;
+    }
+    .title-button{
+        display: none;
+    }
+    .burger-menu{
+        display: block;
+        margin-bottom: 20px;
+        
+    }
+    .header-line{
+        display: flex;
+        justify-content: space-between;
+    }
+    .zero{
+        font-size: 42px;
+    }
+    .countdown{
+        font-size: 18px;
+    }
+    .marks{
+        margin: 5px;
+        display: flex;
+        position: relative;
+        top: 150px;
+        
+    }
+    .previous-mark{
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+    }
+    .next-mark{
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+    }
+    .announcement{
+        font-size: 42px;
+        
+    }
+    .header-down{
+        margin-top:0px ;
+        padding-left: 50px;
+    }
+    .logo2{
+        width: 180px;
+    }
+    .second-section-title{
+        font-size: 60px;
+    }
+    .first-photo,.second-photo,.third-photo,.sixth-photo,.seventh-photo,.eighth-photo{
+        width: 330px;
+    }
+    
+    .third-section{
+        background-size: cover;
+        background-position: center ;
+        background-repeat: no-repeat;
+        height: auto;
+        padding: 5px 0px 200px;
+        position: relative;
+    }
+    .fourth-photo-image,.fifth-photo-image,.ninth-photo-image,.tenth-photo-image,.eleventh-photo-image{
+        width: 214px;
+        
+    }
+    .second-photo{
+        left: 400px;
+        top: -265px;
+    }
+    .third-photo{
+        left: 3px;
+        bottom: 240px;
+    }
+    .fourth-photo{
+        left: 560px;
+        top: 500px;
+    }
+    .fifth-photo{
+        display: block;
+    }
+    .ninth-photo{
+        top: 910px;
+        left: 45px;
+    }
+    
+    .fifth-photo{
+        left: 558px;
+        top: 910px;
+    }
+    .tenth-photo{
+        left: 558px;
+        top: 1570px;
+    }
+    .eleventh-photo{
+        left: 50px;
+        top: 1970px;
+    }
+    .seventh-photo{
+        left: 2px;
+        bottom: 300px;
+    }
+    .eighth-photo{
+        bottom: 660px;
+    }
+    .sixth-photo{
+        left: 3px;
+        bottom: -450px;
+    }
+    .fourth-section-image,.second-part-h2,.second-part-h4,.second-part-text,.second-part-text2,.grey-button{
+        width: 210px;
+    }
+    .fifth-section-head-title{
+        font-size: 50px;
+    }
+    .selector{
+        margin: 15px;
+    }
+    .card-last2,.card-last{
+        display: none;
+    }
+    .fifth-section{
+        background-size: cover;
+        background-position: center ;
+        background-repeat: no-repeat;
+        height: auto;
+        padding: 50px 0 200px;
+    }
+    .foot-logo{
+        width: 33%;
+        padding-top: 70px;
+    }
+    .fifth-section-foot-list-partners{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sixth-section-title{
+        font-size: 36px;
+    }
+    .sixth-section-inpur-button{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+    
+    .sixth-section{
+        background-size: cover;
+        background-position: center ;
+        background-repeat: no-repeat;
+        height: auto;
+        padding: 50px 0 200px;
+    }
+    .name-input,.mail-input{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .seventh-nav-items{
+        display: flex;
+        padding: 0px;
+        justify-content: center;
+        padding-top: 30px;
+    }
+    .seventh-logos{
+        display: flex;
+        padding: 0px;
+        justify-content: center;
+        margin-top: 80px;
+        padding-left: 30px;
+    }
+}
+
+
+
+
 @media(max-width:550px){
     .container{
         margin: 0px 30px;
@@ -1035,7 +1230,7 @@ body {
     .seventh-logos{
         display: flex;
         padding: 0 120px;
-        padding-top: 100px;
+        margin-top: 100px;
         
     }
     
